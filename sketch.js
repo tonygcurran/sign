@@ -29,7 +29,7 @@ function draw() {
     for (i = 0; i <10; i++){
        wigNumx[i] = random(displayWidth/3, displayWidth/3*2);
       wigNumy[i] = random(displayHeight/3, displayHeight/3*2);
-        st = random(100);
+       st = random(width/30);
         galpha = galpha+random(-1,1);
         balpha = balpha+random(-1,1);
 ralpha = ralpha+random(-1,1);
